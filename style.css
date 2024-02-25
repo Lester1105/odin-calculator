@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    text-align: center;
+    background-color: rgb(136, 255, 125);
+}
+.main-container{
+    padding: 20px;
+    margin:20px auto;
+    border :2px solid black;
+    box-shadow: 5px 5px 10px gray;
+    width: 400px;
+    border-radius: 5px;
+    background-color: rgb(2, 33, 88);
+}
+button{
+    width: 70px;
+    height: 70px;
+    padding:auto;
+    margin: auto;
+    font-size: 35px;
+    cursor: pointer;
+
+}
+.display{
+    margin: 5px auto;
+    padding: 5px;
+    border: 2px solid darkgrey;
+    width: 350px;
+    background-color: gray;
+}
+.subTotal{
+    color: rgb(245, 216, 216);
+    margin-bottom: 3px;
+    font-size: 20px;
+    text-align: end;
+    height: 25px;
+}
+.total{
+    font-size: 30px;
+    color: black;
+    text-align: end;
+    height: 25px;
+    margin-bottom: 5px;
+}
+.keys{
+    width: 350px;
+    margin: auto 20px;
+}
+.first-row ,.second-row ,.third-row ,.fourth-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.delete ,.clear{
+    width: 140px;
+}
+.fifth-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+button:hover{
+    background-color: lightgray;
+    font-weight: 500;
+    color: lightcoral;
+}
